@@ -1,0 +1,521 @@
+body {
+    margin: 5px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+/*#container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0px;
+    height: 75px;
+}*/
+
+#header-logo {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.header-logo:hover {
+    height: 35px;
+    width: 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#burger  {
+    display: none;
+    margin: 6px 0;
+    padding-right: 40px;
+  
+}
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.current-page {
+    color: red !important;
+}
+
+/*-------------------------------------Homepage------------------------------------- */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-image: url("../images/pexels-element-digital-1051075.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1em;
+}
+nav a {
+    font-size: 1.5em;
+}
+
+.banner h1 {
+    color: black;
+    margin-bottom: 2px;
+    padding: 4px 4px;
+}
+
+.banner h2 {
+    margin-top: 2px;
+}
+
+.banner button {
+    color: green;
+}
+
+#about {
+    /*margin: auto;*/
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.about-caption {
+    width: 400px;
+    padding-top: 10px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.about-caption h2 {
+    font-weight: 400;
+}
+
+#michael-photo img {
+    border-radius: 15px;
+}
+/*offering!!!*/
+#offering {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 60px;
+   background-color: #f7f2f2;
+   width: 100%;
+}
+.offering-content {
+    width: 80%;
+}
+
+.offering-content ul {
+    text-align: left;
+    font-size: 20px;
+}
+.offering-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.offering-content a:hover {
+    color: blue;
+}
+#offering p {
+    font-size: 20px;
+}
+#offering h2 {
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#photos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+#photos h2 {
+font-weight: 400;
+}
+
+.photoContent {
+    width: 80%;
+    margin: 40px 10px;
+
+}
+
+.photoContainer {
+    display: flex;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    margin: 15px 10px;
+}
+
+.photoCountry img {
+    border-radius: 50%;
+}
+
+.photoCaption {
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+/* --------------------------------------Tips------------------------------------- */
+
+#teachTips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-image: url("../images/pexels-porapak-apichodilok-346885.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#teachTips h1 {
+    color: white;
+}
+
+#teachingTips {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#teachingTips p {
+    color: grey;
+}
+
+.tipSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tipContainer {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 5px;
+    margin: 30px;
+}
+
+.tipContent {
+    width: 320px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tipContent p, ol {
+    font-size: 14px;
+    text-align: left;
+    color: grey;
+}
+
+.tipContent button {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.tipContent button a {
+    color: white;
+}
+
+.tipContent button a:hover {
+    color: blue;
+}
+
+
+/*---------------------------- Materials-------------------------------------- */
+
+.banner3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-image: url("../images/Collaboration\ photo.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.banner3 h1 {
+    color: white;
+    padding-top: 45px;
+}
+
+#material-section {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#material-section h5 {
+    color: grey;
+    font-family: calibri;
+}
+
+#material-section p {
+    color: grey;
+}
+
+.material-lists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.materials-div {
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 275px;
+    padding: 5px;
+}
+
+.materials-div:hover > .felix img {
+    width: 70px;
+    height: 70px;
+}
+
+.materials-div .felix {
+height: 100px;
+}
+
+
+.materials-div ul {
+    padding-left: 0pt;
+}
+
+.materials-div li {
+    list-style-type: none;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.materials-div a {
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.materials-div a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/*--------------------------Photos----------------------------------*/
+ #bannerPhotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 40rem;
+    background-image: url("../images/pexels-mohamed-almari-368893.jpg");
+    background-size: cover;
+    position: relative;
+ }
+
+ .bannerCaption {
+     display: flex;
+     padding: 20px 40px;
+     text-align: left;
+ }
+
+ #bannerPhotos h1  {
+     color: white;
+     padding-right: 40px;
+     margin-bottom: 2px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+
+ #bannerPhotos h5 {
+     color: white;
+ }
+
+ .countrySection{
+     display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+ }
+
+ .headingDiv {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .countryHeading {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 600px;
+ }
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 20%;               
+    background-color: black;
+    height: 1px;
+}
+ .photos {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 30px;
+     flex-wrap: wrap;
+ }
+ .photos img {
+     padding: 2px 2px;
+ }
+
+ .photo {
+     transition: 1s;
+ }
+
+ .photo:hover {
+     filter: grayscale(100%);
+     transform: scale(1.1);
+ }
+
+ /*----------------------modal------------------------------------*/
+
+ .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: fixed; /* Stay in place */
+    opacity: 0;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+
+.model-content {
+    width: 600px;
+    height: 500px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f2f2;
+    padding: 20px 10px;
+}
+
+
+footer h4 {
+    color: black;
+}
+
+#footer-media img {
+   padding: 5px 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+    
+    .nav-ul.show {
+        display: flex;
+    }
+   
+    .banner h1 {
+        background-color: white;
+    }
+    .banner h2 {
+        background-color: white;
+    }
+
+    #burger {
+        display: block;
+    }
+    .about-caption {
+        text-align: center;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+   
+    .tip-image {
+        height: 300px;
+        width: 250px;
+    }
+
+}
