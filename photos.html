@@ -12,28 +12,23 @@
 <body>
   <header id="container">
     <nav>
-      <div id="hearer-logo">
-      <img src="./resources/images/instagram.png" alt="logo" height="30px" width="30px" class="header-logo">
-     <img src="./resources/images/linkedin-white-black.png" alt="linked" height="30px" width="30px" class="header-logo">
-     </div>
-   <img src="./resources/images/menu.png" alt="burger" height="20px" width="20px" id="burger" class="burger">
+      <img src="./resources/images/menu.png" alt="burger" height="20px" width="20px" id="burger" class="burger">
       <ul class="nav-ul" id="nav-ul">
         <li><a href="index.html">Homepage</a></li>
-         <li><a> About</a></li>
-         <li><a href="sites.html">Materials</a></li>
-         <li><a href="photos.html">Photos</a></li>
-         <li><a href="tips.html">Tips</a></li>
+        <li><a href="materials.html">Materials</a></li>
+        <li><a href="photos.html" id="current-page">Photos</a></li>
+        <li><a href="tips.html">Tips</a></li>
       </ul>
-     </nav>
+    </nav>
   </header>
-  <div id="bannerPhotos">
-    <div class="bannerCaption">
+  <div id="banner-photos">
+    <div class="banner-caption">
       <h1>Photos<br>From<br>Around<br>The Globe</h1>
     </div>
   </div>
-  <div id="mexico" class="countrySection">
-    <div class="headingDiv">
-      <div class="countryHeading">
+  <div id="mexico" class="country-section">
+    <div class="heading-div">
+      <div class="country-heading">
         <h1>Latin America</h1>
         <hr>
         <p>In Guadalajara, Mexico, I worked as an English Language Fellow with the United States Depertment of State.
@@ -43,24 +38,40 @@
     </div>
     <div class="photos">
       <img class="photo" src="resources/images/elote.jpeg" height="300px" width="300px">
-      <img class="photo" src="resources/images/Lima 2021-10-17 at 7.11.10 PM.png" height="300px" width="350px">
+      <img class="photo" src="resources/images/colomos.jpeg" height="300px" width="325px">
       <img class="photo" src="resources/images/Machu Pichu 2021-10-17 at 7.08.33 PM.png" height="300px" width="350px">
     </div>
   </div>
-  <div id="Spain" class="countrySection">
-    <div class="headingDiv">
-      <div class="countryHeading">
+  <div id="Spain" class="country-section">
+    <div class="heading-div">
+      <div class="country-heading">
         <h1>Europe</h1>
         <hr>
-        <p>In Guadalajara, Mexico, I worked as an English Language Fellow with the United States Depertment of State.
-          My job was to train English teachers around the entire state of Jalsico.
+        <p>I was a local high school English teacher focusing on conversational English. This was my first real teaching
+          position abroad, and it was where I realized how much I needed to continue traveling and teaching.
         </p>
       </div>
     </div>
     <div class="photos">
       <img class="photo" src="resources/images/Camino_back.jpeg" height="300px" width="350px">
       <img class="photo" src="resources/images/Rey_michael.jpeg" height="300px" width="350px">
-      <img class="photo" src="resources/images/Camino_end.jpeg" height="300px" width="350px">
+      <img class="photo" src="resources/images/Camino_end.jpeg" height="300px" width="300px">
+    </div>
+  </div>
+  <div id="china" class="country-section">
+    <div class="heading-div">
+      <div class="country-heading">
+        <h1>Asia</h1>
+        <hr>
+        <p>Teaching in Xiamen, China is where I really solidified my abilities. I spoke very little Chinese, and
+          my students spoke no English. This experience made me the teacher I am today. Every teacher should
+          try to teach without using the students' first language.
+      </div>
+    </div>
+    <div class="photos">
+      <img class="photo" src="resources/images/Kanchanaburi.jpeg" height="300px" width="300px">
+      <img class="photo" src="resources/images/Yellow_Mountain.jpeg" height="300px" width="350px">
+      <img class="photo" src="resources/images/hongchun.jpeg" height="300px" width="350px">
     </div>
   </div>
   <!-- The Modal -->
@@ -75,6 +86,14 @@
     </div>
 
   </div>
+  <footer>
+    <div id="email-icon">
+      <img src="resources/images/email.png" height="40px" width="40px">
+    </div>
+    <div>
+      <h3>Contact Me: mhorvilleur13@gmail.com</h3>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 
